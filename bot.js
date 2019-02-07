@@ -18,7 +18,7 @@ client.on('ready', function(){
  game: { 
     type: 1,
      url: 'https://www.twitch.tv/skwadraa',
-    name: 'Premium music   ahelp',
+    name: 'Premium music   -help',
     application_id: '477187715658547201',
      assets: {
          large_image:   `${s[Math.floor(Math.random() * s.length)]}`,
@@ -29,7 +29,7 @@ client.on('ready', function(){
     }, 5000);
 });
 const devs = ["439187325503930369","370308123153661974"];
-const prefix = "a"
+const prefix = "-"
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
   if (!devs.includes(msg.author.id)) return;
